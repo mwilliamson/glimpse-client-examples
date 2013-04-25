@@ -3,15 +3,25 @@ body {
     line-height: 1.6;
 }
 
-.container {
-    max-width: 800px;
-    margin: 0 auto;
-}
-
 p {
     max-width: 500px;
 }
 
 #source-raw-link {
     font-size: 0.8em;
+}
+
+.container {
+    margin-left: 10px;
+}
+
+.navigation {
+    width: 260px;
+    padding: 0 10px;
+    float: left;
+    background-color: #f4f4f4;
+}
+
+.main {
+    margin-left: 300px;
 }

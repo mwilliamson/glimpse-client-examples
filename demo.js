@@ -18,6 +18,14 @@
         }
     });
     
+    examples.forEach(function(example) {
+        var link = $("<a>");
+        link.text(example);
+        link.attr("href", "index.html?example=" + example);
+        var listItem = $("<li>").html(link);
+        $(".navigation ul").append(listItem);
+    });
+    
     
     function loadScript(src) {
         var scriptTag = document.createElement("script");
