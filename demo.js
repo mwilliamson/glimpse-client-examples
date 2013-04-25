@@ -2,7 +2,8 @@
     var queryString = readQueryString();
     
     var examples = [
-        "minimal"
+        "minimal",
+        "array-of-objects"
     ];
     
     var exampleName = queryString.example || examples[0];
