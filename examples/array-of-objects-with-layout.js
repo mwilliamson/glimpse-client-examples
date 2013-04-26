@@ -1,3 +1,14 @@
+glimpse.data.initMetadata({
+    plugins: {
+        "Fruit": {
+            layout: [[
+                {data: "name", title: "Name"},
+                {data: "colour", title: "Colour"}
+            ]]
+        }
+    }
+});
+
 glimpse.data.initData({
     data: {
         "Fruit": {

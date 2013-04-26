@@ -3,7 +3,8 @@
     
     var examples = [
         "minimal",
-        "array-of-objects"
+        "array-of-objects",
+        "array-of-objects-with-layout"
     ];
     
     var exampleName = queryString.example || examples[0];
